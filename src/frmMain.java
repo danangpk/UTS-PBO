@@ -390,7 +390,7 @@ public class frmMain extends javax.swing.JFrame {
     }//GEN-LAST:event_RefreshActionPerformed
 
     private void PrintActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PrintActionPerformed
-        MessageFormat header = new MessageFormat("Rekap Penitipan Motor dan Mobil PT.Samudra");
+        MessageFormat header = new MessageFormat("Rekap Penitipan Motor dan Mobil PURWOCENG");
         MessageFormat footer = new MessageFormat("Page {0,number,integer}       ");
         try {
             tblData.print(JTable.PrintMode.FIT_WIDTH, header, footer, true, null, true, null);
